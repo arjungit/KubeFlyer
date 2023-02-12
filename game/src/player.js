@@ -52,7 +52,6 @@ class Player extends GameObject {
 
         mainMenu.visible = true;
         destroyObject(this);
-        resetScore();
     }
 
     testGameOver() {
